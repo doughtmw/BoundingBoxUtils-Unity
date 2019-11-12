@@ -9,4 +9,4 @@ Simple Unity project to draw bounding boxes on a scaled canvas.
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
 
 ## Bounding Box Sample
-A simple Unity scene is included, which allows the user to specify coordinates of a bounding box: top left and bottom right corners, a label, and confidence measure of a detected object and display these on a transparent canvas. 
+A simple Unity scene is included, which allows the user to specify coordinates of a bounding box: top left and bottom right corners, a label, and confidence measure of a detected object, and display these on a transparent canvas. 
