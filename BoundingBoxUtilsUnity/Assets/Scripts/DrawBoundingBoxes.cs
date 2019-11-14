@@ -52,10 +52,10 @@ public class DrawBoundingBoxes : MonoBehaviour
     {
         // Check the bounds of bounding box
         // Give buffer for line drawing to prevent wrap around
-        int x1 = box.X > 0.0f ? (int)box.X : 2;
-        int y1 = box.Y > 0.0f ? (int)box.Y : 2;
-        int x2 = (box.Width + x1) > textureSize.x ? (int)(textureSize.x) - 2 : (int)(box.Width + x1);
-        int y2 = (box.Height + y1) > textureSize.y ? (int)(textureSize.y) - 2 : (int)(box.Height + y1);
+        int x1 = box.X > 0.0f ? (int)box.X : 3;
+        int y1 = box.Y > 0.0f ? (int)box.Y : 3;
+        int x2 = (box.Width + x1) > textureSize.x ? (int)(textureSize.x) - 3 : (int)(box.Width + x1);
+        int y2 = (box.Height + y1) > textureSize.y ? (int)(textureSize.y) - 3 : (int)(box.Height + y1);
 
         Debug.LogFormat("x1: {0}, y1: {1}, x2: {2}, y2: {3}", x1, y1, x2, y2);
 
@@ -84,5 +84,8 @@ public class DrawBoundingBoxes : MonoBehaviour
        // Set the label of the bounding box.
        thisBoundingBox.GetComponent<TextMesh>().text = box.label;
        thisBoundingBox.GetComponent<TextMesh>().color = box.color;
+
+        // Move the gameobject to become visible
+        this.gameObject.transform.localPosition += new Vector3(0, 0, -0.002f);
     }
 }
