@@ -492,11 +492,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72b46aa7e6b9c1e4b94354428158007c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textureSize: {x: 1268, y: 720}
   boundingBoxes:
-  - topLeft: {x: 600, y: 50}
-    bottomRight: {x: 1200, y: 600}
+  - X: 634
+    Y: 0
+    Width: 1300
+    Height: 800
     label: 'Cat: 99%'
-    color: {r: 0, g: 0.90975475, b: 1, a: 1}
+    color: {r: 1, g: 0.5152212, b: 0, a: 1}
   textBoxPrefab: {fileID: 7454690704350221349, guid: 622950581b80aad4b8760165ebf365a2,
     type: 3}
 --- !u!1 &1556591446
