@@ -30,6 +30,7 @@ public abstract class Texture2DExtension
     }
 
     // Draw line between two vec2d points.
+    // https://answers.unity.com/questions/244417/create-line-on-a-texture.html
     public static Texture2D Line(
         Texture2D tex,
         Vector2 p1,
