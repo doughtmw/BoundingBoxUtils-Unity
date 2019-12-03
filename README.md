@@ -1,5 +1,5 @@
 # BoundingBoxUtils-Unity
-Simple Unity project to draw bounding boxes on a scaled canvas.
+Simple Unity project to draw bounding boxes on a scaled canvas. See my [blog post](https://doughtmw.github.io/posts/BoundingBoxUtils-Unity-2) for more information on the sample.
 
 ![Cat bounding box](https://github.com/doughtmw/BoundingBoxUtils-Unity/blob/master/BoundingBoxUtilsUnity/Assets/catBoundingBox.jpg)
 
